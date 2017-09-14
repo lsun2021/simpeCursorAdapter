@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <EditText
+        android:id="@+id/id_et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入职工名称..." />
+
+    <EditText
+        android:id="@+id/id_et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入金额..." />
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="commitData"
+        android:text="提交" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工资信息列表：" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#19F7D2"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_listview"
+        ></ListView>
+
+</LinearLayout>
